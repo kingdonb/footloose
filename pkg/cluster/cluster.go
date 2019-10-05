@@ -283,6 +283,9 @@ func (c *Cluster) CreateMachine(machine *Machine, i int) error {
 func (c *Cluster) createMachineRunArgs(machine *Machine, name string, i int) []string {
 	runArgs := []string{
 		"-it",
+		"--label", "lb.enable=Y",
+		"--label", "lb.publish=6443",
+		"--label", "lb.target=6443",
 		"--label", "works.weave.owner=footloose",
 		"--label", "works.weave.cluster=" + c.spec.Cluster.Name,
 		"--name", name,
