@@ -1,4 +1,4 @@
-module github.com/weaveworks/footloose
+module github.com/kingdonb/footloose
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
