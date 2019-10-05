@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	owner = "weaveworks"
+	owner = "kingdonb"
 	repo  = "footloose"
 )
 
