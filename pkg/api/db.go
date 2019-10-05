@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/weaveworks/footloose/pkg/cluster"
+	"github.com/kingdonb/footloose/pkg/cluster"
 )
 
 type entry struct {

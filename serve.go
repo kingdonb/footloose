@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/weaveworks/footloose/pkg/api"
-	"github.com/weaveworks/footloose/pkg/cluster"
+	"github.com/kingdonb/footloose/pkg/api"
+	"github.com/kingdonb/footloose/pkg/cluster"
 )
 
 var serveCmd = &cobra.Command{

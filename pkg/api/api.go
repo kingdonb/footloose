@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/weaveworks/footloose/pkg/cluster"
+	"github.com/kingdonb/footloose/pkg/cluster"
 )
 
 // API represents the footloose REST API.

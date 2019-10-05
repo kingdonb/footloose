@@ -18,7 +18,7 @@ package docker
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/weaveworks/footloose/pkg/exec"
+	"github.com/kingdonb/footloose/pkg/exec"
 )
 
 func runWithLogging(cmd exec.Cmd) error {

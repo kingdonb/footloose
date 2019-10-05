@@ -17,7 +17,7 @@ limitations under the License.
 package docker
 
 import (
-	"github.com/weaveworks/footloose/pkg/exec"
+	"github.com/kingdonb/footloose/pkg/exec"
 )
 
 // Save saves image to dest, as in `docker save`

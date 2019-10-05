@@ -16,10 +16,10 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/weaveworks/footloose/pkg/config"
-	"github.com/weaveworks/footloose/pkg/docker"
-	"github.com/weaveworks/footloose/pkg/exec"
-	"github.com/weaveworks/footloose/pkg/ignite"
+	"github.com/kingdonb/footloose/pkg/config"
+	"github.com/kingdonb/footloose/pkg/docker"
+	"github.com/kingdonb/footloose/pkg/exec"
+	"github.com/kingdonb/footloose/pkg/ignite"
 )
 
 // Container represents a running machine.

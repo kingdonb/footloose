@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
-	"github.com/weaveworks/footloose/pkg/config"
+	"github.com/kingdonb/footloose/pkg/config"
 )
 
 func (a *API) keyURI(name string) string {
